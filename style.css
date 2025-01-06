@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+  *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style: none;
+     text-decoration: none;
+     font-family:'poppins', sans-serif;
+  }
+
+  body {
+    background-color: #1f242d
+  }
+  
+  .logo{
+    width: 150px;
+  }
+
+  header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .logo{
+    font-weight: 1000;
+    color: moccasin;
+    padding-top: 10%;
+  }
+
+  .header ul{
+    display: flex;
+    align-items: center;
+    color: moccasin;
+    left: 0;
+    right: 0;
+    padding-left: 300%;
+    padding-bottom:10%;
+    transition: .5s;
+  }
+
+  .header ul li:hover{
+    color: chartreuse;
+    transition: .5s;
+    
+  }
+
+ a {
+       color: moccasin;
+       text-decoration: none;
+  }
+
+  .nav ul li{
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
+  .home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: aliceblue;
+  }
+
+  .home-info h1 {
+    font-size: 55px;
+  }
+ 
+  .home-info h2 {
+    font-size: 32px;
+    margin-top: -10px;
+  }
+
+  .home-info p {
+    font-size: 17px;
+    margin: 10px 0 25;
+  }
+
+
+  
+  .home-info .btn-sci{
+    display: flex;
+    align-items: center;
+
+  }
+
+  .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 2px solid #7cf03d;
+    background: #7cf03d;
+    box-shadow:0 0 10px #7cf03d;
+    font-size: 16px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+  }
+
+  .btn:hover{
+    background: transparent;
+    color: #7cf03d;
+    box-shadow: none;
+  }
+
+  .home-info .btn-sci .sci{
+    margin-left: 20px;
+  }
+
+  .home-img .img-box{
+    width: 32vw;
+    height: 32vw;
+    background: red;
+    border-radius: 50%;
+  }
+
+  .home-img .img-box .img-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #7cf03d;
+    justify-content: center;
+    display: flex;
+    overflow:hidden;
+  }
+
+  .home-img .img-box .img-item img{
+    position: absolute;
+    display: block;
+    width: 80%;
+    object-fit: cover;
+
+  }
+
+
+
